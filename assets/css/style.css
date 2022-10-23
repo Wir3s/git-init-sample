@@ -1,0 +1,55 @@
+
+/* Why have this margin and padding? */
+* {
+    margin:0;
+    padding:0;  
+}
+
+
+
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+header {
+
+    background-color: red;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    border-bottom: 10px solid darkorange;
+
+}
+
+
+
+li {
+
+    display: inline;
+    padding: 0 20px;
+    text-decoration: none;
+    
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+img {
+
+    display: block;
+    margin: 20px auto;
+}
+
+.text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
