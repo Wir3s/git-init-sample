@@ -15,21 +15,32 @@ body {
 }
 
 header {
-
+    display: flex;
+    align-content:center;
     background-color: rgb(193, 157, 73);
-    height: 50%;
+    padding-top: 40px;
     width: 100%;
-    line-height: 60px;
     border-bottom: 10px solid darkorange;
 
 }
 
+header p {
+    
+    font-size: 40px;
+    padding-left: 40px;
+    
+    
+}
 
+nav { 
+
+   
+}
 
 li {
 
-    display: inline;
-    padding: 0 20px;
+    display:inline;
+    
     text-decoration: none;
     
 }
@@ -40,14 +51,26 @@ a {
 
 }
 
-img {
+figure {
 
-    display: block;
-    margin: 20px auto;
+    display:flex;
+    align-items: center;
+}
+
+figure img {
+
+    margin: 20px 20px;
+ 
 }
 
 section {
     padding: 40px 20px;
+}
+
+#headshot {
+
+
+
 }
 
 .text-center {
@@ -57,3 +80,4 @@ section {
   .text-right {
     text-align: right;
   }
+
