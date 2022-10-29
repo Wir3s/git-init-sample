@@ -23,36 +23,40 @@ header {
 }
 
 h1 {
-
     font-size: 200%;
 }
 
-nav {
-    
+h2 {
+   text-align: center;
+}
+
+nav {    
     display: flex;
     flex-direction:row;
     align-content:center; 
     justify-content:center;
     flex-wrap: wrap;
     padding-top: 12px;
-
 }
 
 li {
-
-   display:inline;
+    display:inline;
     padding: 10px;
     text-decoration: none;
-    
-}
+    }
 
 a {
     text-decoration: none;
-
 }
 
 main  {
     padding-top: 20px;
+
+}
+
+form {
+
+margin-top:50px;
 
 }
 
