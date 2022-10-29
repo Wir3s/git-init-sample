@@ -9,15 +9,15 @@
 
 body {
     color: white;
-    background-color: black;
+    background-color: rgb(68, 67, 67);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
 }
 
 header {
 
-    background-color: red;
-    height: 60px;
+    background-color: rgb(193, 157, 73);
+    height: 50%;
     width: 100%;
     line-height: 60px;
     border-bottom: 10px solid darkorange;
