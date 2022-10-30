@@ -17,9 +17,9 @@ body {
 
 header {
     text-align: center;
-    background-color: rgb(193, 157, 73);
+    background-color: darkgoldenrod;
     width: 100%;
-    border-bottom: 10px solid darkorange;
+    border-bottom: 10px solid darkolivegreen;
     padding-top:20px;
     
 }
@@ -49,13 +49,19 @@ li {
     text-decoration: none;
     }
 
-a {
+a:link, a:visited {
     text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    color:darkred;
+    
+
 }
 
 main  {
     padding-top: 10px;
-
 }
 
 form {
@@ -89,6 +95,7 @@ section {
 
 display: flex;
 flex-direction: row;
+justify-content: space-evenly;
 flex: 1 0 100%;
 padding-top: 2.5rem;
 padding-left: 3.2rem;
@@ -106,18 +113,19 @@ padding-left: 3.2rem;
     width: 30%;
     float: left;
     padding: 20px;
+    border-radius: 50%;
 }
 
 #about p {
     position: relative;
-    top:20px;
+    top:30px;
     font-size: 3.0vw;
     line-height:1.2;
 }
 
 #portfolio {
 
-    display: inline-block;
+    margin-top: 15%;
 }
 
 
