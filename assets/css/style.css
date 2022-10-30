@@ -1,3 +1,11 @@
+/* color scheme sourced from http://khroma.co/generator/ */
+
+:root {
+    --moon-mist: #dedeca;
+    --antique-bronze: #7d4408;
+    --tana: #d7d3b6;
+    --irish-coffee: #553f26;
+}
 
 
 * {
@@ -8,9 +16,10 @@
 
 
 body {
-    color: white;
-    background-color: rgb(68, 67, 67);
-    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    color: var(--antique-bronze);
+    font-weight: 550;
+    background-color: var(--moon-mist);
+    font-family: 'Didot', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     
 }
@@ -31,8 +40,11 @@ h1 {
 h2 {
     font-size: 150%;
     text-align: center;
+    
     margin-bottom: 10px;
 }
+
+/* Navigation Bar Settings */
 
 nav {    
     display: flex;
@@ -48,6 +60,8 @@ li {
     padding: 10px;
     text-decoration: none;
     }
+
+
 
 a:link, a:visited {
     text-decoration: none;
@@ -68,10 +82,12 @@ form {
 */
 }
 
+/*
+
 section {
     margin-top: 1rem;
 }
-
+*/
 
 .text-center {
     text-align: center;
@@ -87,16 +103,51 @@ section {
     justify-content: center;
 }
 
+.bio {
+
+    border:5px solid darkorange;
+    display: flex;
+    padding: 0 20px;
+    
+}
+
+.bio img {
+
+    width: 150px;
+    border-radius: 50%;
+    align-self: center;
+    
+}
+
+.bio p  {
+    padding-left: 5%;
+    padding-top: 2%;
+    line-height: 1.2;
+    font-size: 1em;
+
+}
+
+
+
+.work  {
+    border:5px solid darkorange;
+    margin-top: 5%;
+    
+
+}
+
+
+
 .smallerprojects
 
 {
 
-display: flex;
-flex-direction: row;
-justify-content:space-evenly;
-margin-left: auto;
-padding-top: 2.5rem;
-width:80%;
+display:flex;
+justify-content: space-evenly;
+margin-left: 10%;
+border:5px solid darkorange;
+width: 80%;
+margin-top: 20px;
 
 
 
@@ -105,13 +156,18 @@ width:80%;
 .largeprojectimage {
 
     width: 80%;
+    border-style: outset;
+    border-width: 10px;
+    
 }
 
 .projectimages {
 
-    width:60%;
-    border: 5px dashed blue;
+    width:30%;
+    
 }
+
+/*
 
 #bioimage {
     width: 30%;
@@ -122,6 +178,9 @@ width:80%;
     min-width: auto;
 }
 
+*/
+
+/*
 #about p {
     position: relative;
     top:20px;
@@ -129,13 +188,27 @@ width:80%;
     line-height:1.2;
 }
 
+*/
+
+/*
+
 #portfolio {
     margin-top:20%;
     
 }
-
+*/
 
 /* Media Queires */
+
+/* Very Small Devices */
+@media only screen and (min-width: 436px) {
+
+.bio {
+    
+
+}
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {...}
