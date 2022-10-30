@@ -77,17 +77,21 @@ main  {
 }
 
 form {
-/*
-    margin-top:50px;
-*/
+    margin-top:10px;
+    margin-left: 50px;
+    }
+
+form p {
+
+        padding: 5px;
+    }
+
+label {
+
+    display: block;
 }
 
-/*
 
-section {
-    margin-top: 1rem;
-}
-*/
 
 .text-center {
     text-align: center;
@@ -100,6 +104,7 @@ section {
  
 .flexy  {
     display: flex;
+    align-items:center;
     justify-content: center;
 }
 
@@ -138,9 +143,7 @@ section {
 
 
 
-.smallerprojects
-
-{
+.smallerprojects   {
 
 display:flex;
 justify-content: space-evenly;
@@ -149,23 +152,59 @@ border:5px solid darkorange;
 width: 80%;
 margin-top: 20px;
 
-
-
 }
+
+
 
 .largeprojectimage {
 
-    width: 80%;
-    border-style: outset;
-    border-width: 10px;
     
+    border-style: outset;
+    border-width: 5px; 
+    width: 80%;
+    object-fit:cover; 
+    
+    
+}
+
+.largeprojectimage:hover {
+
+    opacity: .6;
 }
 
 .projectimages {
 
-    width:30%;
+    width:40%;
     
 }
+
+.projectimages:hover {
+
+    opacity: .6;
+}
+
+.imgtext {
+
+  position: absolute;
+  color: white;
+  font-size: 0.8em;
+  background: var(--antique-bronze);
+  padding: 20px;
+  opacity: .8;
+}
+
+.imgtext:hover {
+
+    opacity: 1;
+}
+
+
+.text-input:hover, button:hover {
+  box-shadow: 0 5px 5px rgb(5, 5, 5);
+}
+
+
+
 
 /*
 
@@ -228,6 +267,20 @@ nav {
     font-size: 150%;
 }
 
+h1 {
+
+    }
+
+.bio p {
+
+    font-size: 1.6em;
+}
+
+.imgtext {
+
+font-size: 1.6em;
+
+}
 
 }
 
