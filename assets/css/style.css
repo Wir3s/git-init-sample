@@ -56,18 +56,16 @@ a:link, a:visited {
 
 a:hover {
     color:darkred;
-    
-
-}
+    }
 
 main  {
     padding-top: 10px;
 }
 
 form {
-
-margin-top:50px;
-
+/*
+    margin-top:50px;
+*/
 }
 
 section {
@@ -95,17 +93,23 @@ section {
 
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
-flex: 1 0 100%;
+justify-content:space-evenly;
+margin-left: auto;
 padding-top: 2.5rem;
-padding-left: 3.2rem;
+width:80%;
+
 
 
 }
 
+.largeprojectimage {
+
+    width: 80%;
+}
+
 .projectimages {
 
-    width:80%;
+    width:60%;
     border: 5px dashed blue;
 }
 
@@ -114,18 +118,20 @@ padding-left: 3.2rem;
     float: left;
     padding: 20px;
     border-radius: 50%;
+    max-width: 100%;
+    min-width: auto;
 }
 
 #about p {
     position: relative;
-    top:30px;
-    font-size: 3.0vw;
+    top:20px;
+    font-size: 0.8em;
     line-height:1.2;
 }
 
 #portfolio {
-
-    margin-top: 15%;
+    margin-top:20%;
+    
 }
 
 
