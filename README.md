@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-Just visit the link: 
+Just visit the link: https://wir3s.github.io/portfolio/
 
 ![](assets/images/portfolio_screenshot.png)
 
