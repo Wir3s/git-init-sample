@@ -15,7 +15,7 @@
 
 
 body {
-    color: var(--antique-bronze);
+    color: var(--irish-coffee);
     font-weight: 550;
     background-color: var(--moon-mist);
     font-family: 'Didot', 'Arial Narrow', Arial, sans-serif;
@@ -107,14 +107,11 @@ label {
 
 /* About section formatting */
 .bio {
-
-  /*  border:5px solid darkorange;  */
     display: flex;
+    flex-direction:column;
     padding: 20px;
-    background-color: var(--antique-bronze);
-    background-image: linear-gradient(#7d4408, #dedeca);
-    color: var(--moon-mist);
-    
+    background-color: var(--irish-coffee);
+    color: var(--moon-mist);    
 }
 
 .bio img {
@@ -136,42 +133,34 @@ label {
 /* Portfolio section formatting */
 
 .work  {
-  /*  border:5px solid darkorange; */
-    margin-top: 5%;
-    
+    margin-top: 5%;   
 }
 
 .smallerprojects   {
     display:flex;
     justify-content: space-evenly;
     margin-left: 10%;
-   /* border:5px solid darkorange;  */
     width: 80%;
     margin-top: 20px;
-
 }
 
 
-.largeprojectimage {
-
-    
+.largeprojectimage {  
     border-style: outset;
     border-width: 5px; 
     width: 80%;
-    object-fit:cover;     
-    
-}
+    object-fit:cover;    
+    }
 
 .largeprojectimage:hover {
-
     opacity: .6;
 }
 
 .projectimages {
-
     width:40%;
-    
-}
+    border-style: outset;
+    border-width: 2px;
+    }
 
 .projectimages:hover {
 
@@ -180,7 +169,6 @@ label {
 
 /* Text over image */
 .imgtext {
-
   position: absolute;
   color: white;
   font-size: 0.8em;
@@ -190,7 +178,6 @@ label {
 }
 
 .imgtext:hover {
-
     opacity: 1;
 }
 
@@ -199,16 +186,19 @@ label {
   box-shadow: 0 5px 5px rgb(5, 5, 5);
 }
 
+#contact {
 
+    margin-top:20px;
+}
 
 /* Media Queires */
 
 /* Very Small Devices */
 @media only screen and (min-width: 436px) {
 
+    /* Switch to row format */
 .bio {
-    
-
+    flex-direction: row;
 }
 
 }
@@ -220,13 +210,11 @@ label {
 @media only screen and (min-width: 768px) {
 
 header {
-
     text-align: left;
     padding-left: 20px;
 }
 
 nav {
-
     justify-content: flex-end;
     font-size: 150%;
 }
@@ -236,12 +224,10 @@ h1 {
     }
 
 .bio p {
-
     font-size: 1.6em;
 }
 
 .imgtext {
-
     font-size: 1.6em;
 }
 
