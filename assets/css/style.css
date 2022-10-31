@@ -104,6 +104,13 @@ label {
     justify-content: center;
 }
 
+.flexy-col  {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 
 /* About section formatting */
 .bio {
@@ -127,9 +134,8 @@ label {
     padding-top: 2%;
     line-height: 1.2;
     font-size: 1em;
-    color: black;
-
 }
+
 
 /* Portfolio section formatting */
 
@@ -192,6 +198,29 @@ label {
     margin-top:20px;
 }
 
+form > p{
+    display: flex;
+    justify-content: space-between;
+    width: 80%
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    width: 40%
+
+}
+form > *{
+    margin-bottom: 5%;
+}
+
+button {
+    width: 50%
+}
+
 /* Media Queires */
 
 /* Very Small Devices */
@@ -235,11 +264,31 @@ h1 {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
-
-html {
-
-    max-width: 1200px;
-    margin: auto;
+@media only screen and (min-width: 992px) {
     
+    html {
+        
+        max-width: 1200px;
+        margin: auto;
+    }
+        
+}
+
+
+@media only screen and (min-width: 1400px) {
+    
+    html {
+        
+        min-width: 100%;
+        margin: auto;
+    }
+    main {
+        
+        max-width: 1200px;
+        margin: auto;
+    }
+    main > *{
+        width: 100%
+    }
+        
 }
